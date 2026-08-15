@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&family=Manrope:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&family=Manrope:wght@400;500;600;700;800&display=swap');
 
 :root{
   --bg: #17110C;
@@ -66,8 +66,8 @@ h1,h2,h3,p{ margin: 0; }
 .eyebrow::before{ content:''; width: 28px; height: 1px; background: var(--gold); }
 
 h2.section-title{
-  font-family: 'Yeseva One', serif;
-  font-weight: 400;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
   font-size: clamp(2rem, 4.4vw, 3.1rem);
   line-height: 1.12;
   color: var(--cream);
@@ -128,7 +128,7 @@ section{ padding: var(--space-6) 0; position: relative; }
   border-bottom: 1px solid var(--line);
 }
 .site-header .wrap{ display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); }
-.brand{ display: flex; align-items: center; gap: .6em; font-family: 'Yeseva One', serif; font-size: 1.25rem; color: var(--gold-soft); }
+.brand{ display: flex; align-items: center; gap: .6em; font-family: 'Playfair Display', serif; font-size: 1.25rem; color: var(--gold-soft); }
 .brand .icon{ width: 30px; height: 30px; color: var(--gold); }
 .nav-links{ display: flex; gap: var(--space-4); }
 .nav-links a{
@@ -169,17 +169,17 @@ section{ padding: var(--space-6) 0; position: relative; }
 .hero .wrap{ display:grid; grid-template-columns: 1.1fr .9fr; gap: var(--space-5); align-items: center; }
 .hero-copy .eyebrow{ margin-bottom: var(--space-2); }
 .hero-title{
-  font-family: 'Yeseva One', serif;
-  font-weight: 400;
+  font-family: 'Playfair Display', serif;
+  font-weight: 800;
   font-size: clamp(2.6rem, 5.6vw, 4.4rem);
   line-height: 1.06;
   color: var(--cream);
 }
-.hero-title em{ font-style: normal; color: transparent; background: linear-gradient(120deg, var(--gold-soft), var(--ember)); -webkit-background-clip: text; background-clip: text; }
+.hero-title em{ font-style: italic; font-weight: 600; color: transparent; background: linear-gradient(120deg, var(--gold-soft), var(--ember)); -webkit-background-clip: text; background-clip: text; }
 .hero-desc{ margin-top: var(--space-3); max-width: 480px; color: var(--cream-muted); font-size: 1.08rem; }
 .hero-actions{ margin-top: var(--space-4); display: flex; gap: var(--space-2); flex-wrap: wrap; }
 .hero-stats{ display:flex; gap: var(--space-5); margin-top: var(--space-5); }
-.hero-stat b{ display:block; font-family:'Yeseva One',serif; font-size: 1.8rem; color: var(--gold-soft); font-weight:400; }
+.hero-stat b{ display:block; font-family:'Playfair Display',serif; font-size: 1.8rem; color: var(--gold-soft); font-weight:700; }
 .hero-stat span{ font-size: .85rem; color: var(--cream-muted); }
 
 .hero-art{ position: relative; aspect-ratio: 1/1; display:flex; align-items:center; justify-content:center; }
@@ -188,7 +188,7 @@ section{ padding: var(--space-6) 0; position: relative; }
   position:absolute; inset: 6%; border-radius: 50%;
   border: 1px dashed var(--line);
 }
-.smoke-path{ stroke-dasharray: 260; stroke-dashoffset: 260; }
+.smoke-path{ stroke-dasharray: 420; stroke-dashoffset: 420; }
 
 .scroll-cue{
   position:absolute; left: 50%; bottom: 34px; transform: translateX(-50%);
@@ -211,7 +211,7 @@ section{ padding: var(--space-6) 0; position: relative; }
   padding: var(--space-3);
 }
 .stat-card .icon{ width: 26px; height:26px; color: var(--gold); margin-bottom: var(--space-1); }
-.stat-card b{ display:block; font-family:'Yeseva One',serif; font-weight:400; font-size:1.5rem; color: var(--cream); }
+.stat-card b{ display:block; font-family:'Playfair Display',serif; font-weight:700; font-size:1.5rem; color: var(--cream); }
 .stat-card span{ color: var(--cream-muted); font-size: .88rem; }
 
 /* ---------- Menu ---------- */
@@ -247,7 +247,7 @@ section{ padding: var(--space-6) 0; position: relative; }
 .menu-item-name{ font-weight: 600; color: var(--cream); }
 .menu-item-unit{ font-size: .78rem; color: var(--cream-muted); white-space: nowrap; }
 .menu-item-leader{ flex: 1; border-bottom: 1px dotted rgba(199,183,160,.35); transform: translateY(-4px); }
-.menu-item-price{ font-family:'Yeseva One',serif; font-weight:400; color: var(--gold-soft); white-space:nowrap; }
+.menu-item-price{ font-family:'Playfair Display',serif; font-weight:700; color: var(--gold-soft); white-space:nowrap; }
 .menu-note{ text-align:center; color: var(--cream-muted); font-size: .85rem; margin-top: var(--space-4); }
 
 /* ---------- Reviews ---------- */
@@ -283,7 +283,7 @@ section{ padding: var(--space-6) 0; position: relative; }
   background: radial-gradient(50% 60% at 100% 0%, rgba(229,103,43,.14), transparent 70%);
   pointer-events:none;
 }
-.loc-name{ font-family:'Yeseva One',serif; font-weight:400; font-size:1.6rem; color: var(--cream); }
+.loc-name{ font-family:'Playfair Display',serif; font-weight:700; font-size:1.6rem; color: var(--cream); }
 .loc-row{ display:flex; gap:12px; margin-top: var(--space-2); color: var(--cream-muted); font-size: .95rem; }
 .loc-row .icon{ width:18px; height:18px; color: var(--gold); flex-shrink:0; margin-top:2px; }
 .loc-delivery{
@@ -311,11 +311,11 @@ section{ padding: var(--space-6) 0; position: relative; }
   background-image: radial-gradient(circle, rgba(255,255,255,.08) 1px, transparent 1px);
   background-size: 22px 22px;
 }
-.cta-band h2{ font-family:'Yeseva One',serif; font-weight:400; font-size: clamp(1.8rem,3.6vw,2.6rem); color:#fff; position:relative; }
+.cta-band h2{ font-family:'Playfair Display',serif; font-weight:700; font-size: clamp(1.8rem,3.6vw,2.6rem); color:#fff; position:relative; }
 .cta-band p{ color: rgba(255,255,255,.85); margin-top: var(--space-1); position:relative; }
 .cta-phone{
   display:inline-flex; align-items:center; gap:12px;
-  margin-top: var(--space-3); font-family:'Yeseva One',serif; font-weight:400;
+  margin-top: var(--space-3); font-family:'Playfair Display',serif; font-weight:700;
   font-size: clamp(1.8rem,4vw,2.8rem); color:#fff; position:relative;
 }
 .cta-phone .icon{ width: 30px; height:30px; }
@@ -324,7 +324,7 @@ section{ padding: var(--space-6) 0; position: relative; }
 /* ---------- Footer ---------- */
 .site-footer{ padding: var(--space-5) 0 var(--space-3); border-top: 1px solid var(--line); }
 .footer-grid{ display:grid; grid-template-columns: 1.3fr 1fr 1fr; gap: var(--space-4); }
-.footer-brand{ display:flex; align-items:center; gap:.6em; font-family:'Yeseva One',serif; font-size:1.15rem; color: var(--gold-soft); margin-bottom: var(--space-2); }
+.footer-brand{ display:flex; align-items:center; gap:.6em; font-family:'Playfair Display',serif; font-size:1.15rem; color: var(--gold-soft); margin-bottom: var(--space-2); }
 .footer-brand .icon{ width:26px; height:26px; color: var(--gold); }
 .footer-col h4{ font-size:.82rem; letter-spacing:.1em; text-transform:uppercase; color: var(--gold); margin-bottom: var(--space-2); }
 .footer-col p, .footer-col li{ color: var(--cream-muted); font-size: .92rem; margin-bottom: 8px; }
