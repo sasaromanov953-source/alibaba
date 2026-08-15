@@ -53,8 +53,10 @@ function renderMenu(menu){
     panel.setAttribute('role', 'tabpanel');
     cat.items.forEach(item => {
       const row = document.createElement('div');
-      row.className = 'menu-item';
+      row.className = 'menu-item' + (item.image ? ' has-photo' : '');
+      const thumb = item.image ? `<img class="menu-item-thumb" src="${item.image}" alt="" loading="lazy" width="44" height="44">` : '';
       row.innerHTML = `
+        ${thumb}
         <span class="menu-item-name">${item.name}</span>
         <span class="menu-item-unit">${item.unit || ''}</span>
         <span class="menu-item-leader"></span>
@@ -79,6 +81,48 @@ function renderMenu(menu){
         gsap.fromTo(p.children, { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: .4, stagger: .03, ease: 'power2.out' });
       }
     });
+  });
+}
+
+const GALLERY_LABELS = {
+  'shashlyk-svinina': 'Шашлык из свинины',
+  'lyulya-kebab': 'Люля-кебаб из говядины',
+  'shaurma': 'Шаурма со свининой',
+  'plov': 'Плов национальный',
+  'pelmeni': 'Домашние пельмени',
+  'samsa': 'Самса с говядиной',
+  'chizkeyk': 'Чизкейк',
+  'lepioshka': 'Лепёшка тандырная'
+};
+const GALLERY_SLUGS = Object.keys(GALLERY_LABELS);
+
+function findMenuItemBySlug(menu, slug){
+  const needle = `assets/img/menu/${slug}.jpg`;
+  for (const cat of menu.categories) {
+    for (const item of cat.items) {
+      if (item.imageFull === needle) return { ...item, category: cat.name };
+    }
+  }
+  return null;
+}
+
+function renderGallery(menu){
+  const grid = document.getElementById('galleryGrid');
+  if (!grid) return;
+  GALLERY_SLUGS.forEach(slug => {
+    const item = findMenuItemBySlug(menu, slug);
+    if (!item) return;
+    const card = document.createElement('figure');
+    card.className = 'gallery-card';
+    card.setAttribute('data-reveal', '');
+    card.innerHTML = `
+      <img src="assets/img/menu/${slug}.jpg" alt="${GALLERY_LABELS[slug]}" loading="lazy">
+      <figcaption>
+        <span>${GALLERY_LABELS[slug]}</span>
+        <b>${formatPrice(item.price)}</b>
+      </figcaption>
+    `;
+    grid.appendChild(card);
   });
 }
 
@@ -228,6 +272,7 @@ function initHeroEntrance(){
       loadJSON('data/reviews.json')
     ]);
     renderMenu(menu);
+    renderGallery(menu);
     renderReviews(reviews);
     renderLocations(info);
   } catch (err) {

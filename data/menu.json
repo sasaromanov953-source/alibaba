@@ -4,147 +4,452 @@
     {
       "name": "Супы",
       "items": [
-        { "name": "Солянка мясная", "unit": "шт.", "price": 280 },
-        { "name": "Лагман с телятиной", "unit": "шт.", "price": 280 },
-        { "name": "Окрошка на квасе", "unit": "шт.", "price": 200 },
-        { "name": "Шурпа с говядиной", "unit": "шт.", "price": 280 },
-        { "name": "Харчо с говядиной", "unit": "шт.", "price": 280 },
-        { "name": "Суп-лапша из цыплёнка", "unit": "шт.", "price": 280 }
+        {
+          "name": "Солянка мясная",
+          "unit": "шт.",
+          "price": 280
+        },
+        {
+          "name": "Лагман с телятиной",
+          "unit": "шт.",
+          "price": 280,
+          "image": "assets/img/menu/thumb/lagman.jpg",
+          "imageFull": "assets/img/menu/lagman.jpg"
+        },
+        {
+          "name": "Окрошка на квасе",
+          "unit": "шт.",
+          "price": 200
+        },
+        {
+          "name": "Шурпа с говядиной",
+          "unit": "шт.",
+          "price": 280,
+          "image": "assets/img/menu/thumb/shurpa.jpg",
+          "imageFull": "assets/img/menu/shurpa.jpg"
+        },
+        {
+          "name": "Харчо с говядиной",
+          "unit": "шт.",
+          "price": 280,
+          "image": "assets/img/menu/thumb/harcho.jpg",
+          "imageFull": "assets/img/menu/harcho.jpg"
+        },
+        {
+          "name": "Суп-лапша из цыплёнка",
+          "unit": "шт.",
+          "price": 280,
+          "image": "assets/img/menu/thumb/suplapsha.jpg",
+          "imageFull": "assets/img/menu/suplapsha.jpg"
+        }
       ]
     },
     {
       "name": "Плов",
       "items": [
-        { "name": "Плов национальный с говядиной", "unit": "шт.", "price": 280 }
+        {
+          "name": "Плов национальный с говядиной",
+          "unit": "шт.",
+          "price": 280,
+          "image": "assets/img/menu/thumb/plov.jpg",
+          "imageFull": "assets/img/menu/plov.jpg"
+        }
       ]
     },
     {
       "name": "Салаты",
       "items": [
-        { "name": "Помидоры пикантные", "unit": "100 гр", "price": 70 },
-        { "name": "Витаминка", "unit": "100 гр", "price": 60 },
-        { "name": "Цезарь с курицей", "unit": "100 гр", "price": 65, "note": "цена нечётко читается на фото, уточнить (65 или 165 р.)" }
+        {
+          "name": "Помидоры пикантные",
+          "unit": "100 гр",
+          "price": 70
+        },
+        {
+          "name": "Витаминка",
+          "unit": "100 гр",
+          "price": 60,
+          "image": "assets/img/menu/thumb/salat.jpg",
+          "imageFull": "assets/img/menu/salat.jpg"
+        },
+        {
+          "name": "Цезарь с курицей",
+          "unit": "100 гр",
+          "price": 65,
+          "note": "цена нечётко читается на фото, уточнить (65 или 165 р.)"
+        }
       ]
     },
     {
       "name": "Шаурма",
       "items": [
-        { "name": "С курицей", "unit": "шт.", "price": 250 },
-        { "name": "Со свининой", "unit": "шт.", "price": 270 },
-        { "name": "Веган (без мяса)", "unit": "шт.", "price": 200 }
+        {
+          "name": "С курицей",
+          "unit": "шт.",
+          "price": 250
+        },
+        {
+          "name": "Со свининой",
+          "unit": "шт.",
+          "price": 270,
+          "image": "assets/img/menu/thumb/shaurma.jpg",
+          "imageFull": "assets/img/menu/shaurma.jpg"
+        },
+        {
+          "name": "Веган (без мяса)",
+          "unit": "шт.",
+          "price": 200,
+          "image": "assets/img/menu/thumb/shaurma-vegan.jpg",
+          "imageFull": "assets/img/menu/shaurma-vegan.jpg"
+        }
       ]
     },
     {
       "name": "Добавки к шаурме",
       "items": [
-        { "name": "Сыр", "unit": "40 гр", "price": 65 },
-        { "name": "Халапеньо", "unit": "20 гр", "price": 30 }
+        {
+          "name": "Сыр",
+          "unit": "40 гр",
+          "price": 65
+        },
+        {
+          "name": "Халапеньо",
+          "unit": "20 гр",
+          "price": 30
+        }
       ]
     },
     {
       "name": "Хлеб",
       "items": [
-        { "name": "Лаваш армянский", "unit": "шт.", "price": 40 },
-        { "name": "Лаваш армянский", "unit": "½ шт.", "price": 20 },
-        { "name": "Лепёшка тандырная", "unit": "шт.", "price": 52 },
-        { "name": "Лепёшка тандырная", "unit": "½ шт.", "price": 26 },
-        { "name": "Лепёшка тандырная", "unit": "¼ шт.", "price": 15 }
+        {
+          "name": "Лаваш армянский",
+          "unit": "шт.",
+          "price": 40,
+          "image": "assets/img/menu/thumb/lavash.jpg",
+          "imageFull": "assets/img/menu/lavash.jpg"
+        },
+        {
+          "name": "Лаваш армянский",
+          "unit": "½ шт.",
+          "price": 20
+        },
+        {
+          "name": "Лепёшка тандырная",
+          "unit": "шт.",
+          "price": 52,
+          "image": "assets/img/menu/thumb/lepioshka.jpg",
+          "imageFull": "assets/img/menu/lepioshka.jpg"
+        },
+        {
+          "name": "Лепёшка тандырная",
+          "unit": "½ шт.",
+          "price": 26
+        },
+        {
+          "name": "Лепёшка тандырная",
+          "unit": "¼ шт.",
+          "price": 15
+        }
       ]
     },
     {
       "name": "Фри меню",
       "items": [
-        { "name": "Картофель фри", "unit": "шт.", "price": 250 },
-        { "name": "Стрипсы куриные", "unit": "шт.", "price": 250 }
+        {
+          "name": "Картофель фри",
+          "unit": "шт.",
+          "price": 250,
+          "image": "assets/img/menu/thumb/fri.jpg",
+          "imageFull": "assets/img/menu/fri.jpg"
+        },
+        {
+          "name": "Стрипсы куриные",
+          "unit": "шт.",
+          "price": 250,
+          "image": "assets/img/menu/thumb/stripsy.jpg",
+          "imageFull": "assets/img/menu/stripsy.jpg"
+        }
       ]
     },
     {
       "name": "Люля кебаб",
       "items": [
-        { "name": "Из курицы", "unit": "шт.", "price": 320 },
-        { "name": "Из говядины", "unit": "шт.", "price": 370 },
-        { "name": "Из баранины", "unit": "шт.", "price": 370 }
+        {
+          "name": "Из курицы",
+          "unit": "шт.",
+          "price": 320
+        },
+        {
+          "name": "Из говядины",
+          "unit": "шт.",
+          "price": 370,
+          "image": "assets/img/menu/thumb/lyulya-kebab.jpg",
+          "imageFull": "assets/img/menu/lyulya-kebab.jpg"
+        },
+        {
+          "name": "Из баранины",
+          "unit": "шт.",
+          "price": 370
+        }
       ]
     },
     {
       "name": "Люля кебаб в лаваше",
       "items": [
-        { "name": "С курицей", "unit": "шт.", "price": 270 },
-        { "name": "С говядиной", "unit": "шт.", "price": 320 },
-        { "name": "С бараниной", "unit": "шт.", "price": 320 }
+        {
+          "name": "С курицей",
+          "unit": "шт.",
+          "price": 270
+        },
+        {
+          "name": "С говядиной",
+          "unit": "шт.",
+          "price": 320
+        },
+        {
+          "name": "С бараниной",
+          "unit": "шт.",
+          "price": 320
+        }
       ]
     },
     {
       "name": "Шашлык",
       "items": [
-        { "name": "Свинина — шея", "unit": "100 гр", "price": 180 },
-        { "name": "Свинина — вырезка", "unit": "100 гр", "price": 180 },
-        { "name": "Свинина — корейка", "unit": "100 гр", "price": 160 },
-        { "name": "Курица — бедро", "unit": "100 гр", "price": 140 },
-        { "name": "Курица — грудка", "unit": "100 гр", "price": 140 },
-        { "name": "Грибы — шампиньоны", "unit": "100 гр", "price": 180 }
+        {
+          "name": "Свинина — шея",
+          "unit": "100 гр",
+          "price": 180,
+          "image": "assets/img/menu/thumb/shashlyk-svinina.jpg",
+          "imageFull": "assets/img/menu/shashlyk-svinina.jpg"
+        },
+        {
+          "name": "Свинина — вырезка",
+          "unit": "100 гр",
+          "price": 180
+        },
+        {
+          "name": "Свинина — корейка",
+          "unit": "100 гр",
+          "price": 160,
+          "image": "assets/img/menu/thumb/svinina-koreyka.jpg",
+          "imageFull": "assets/img/menu/svinina-koreyka.jpg"
+        },
+        {
+          "name": "Курица — бедро",
+          "unit": "100 гр",
+          "price": 140,
+          "image": "assets/img/menu/thumb/shashlyk-kurica.jpg",
+          "imageFull": "assets/img/menu/shashlyk-kurica.jpg"
+        },
+        {
+          "name": "Курица — грудка",
+          "unit": "100 гр",
+          "price": 140
+        },
+        {
+          "name": "Грибы — шампиньоны",
+          "unit": "100 гр",
+          "price": 180,
+          "image": "assets/img/menu/thumb/griby.jpg",
+          "imageFull": "assets/img/menu/griby.jpg"
+        }
       ]
     },
     {
       "name": "Соусы",
       "items": [
-        { "name": "Белый", "unit": "50/100 гр", "price": "40/70" },
-        { "name": "Красный", "unit": "50/100 гр", "price": "40/70" }
+        {
+          "name": "Белый",
+          "unit": "50/100 гр",
+          "price": "40/70",
+          "image": "assets/img/menu/thumb/sous-bely.jpg",
+          "imageFull": "assets/img/menu/sous-bely.jpg"
+        },
+        {
+          "name": "Красный",
+          "unit": "50/100 гр",
+          "price": "40/70",
+          "image": "assets/img/menu/thumb/sous-krasny.jpg",
+          "imageFull": "assets/img/menu/sous-krasny.jpg"
+        }
       ]
     },
     {
       "name": "Маринованное мясо",
       "items": [
-        { "name": "Курица", "unit": "1 кг", "price": 750 },
-        { "name": "Свинина (шея)", "unit": "1 кг", "price": 1000 }
+        {
+          "name": "Курица",
+          "unit": "1 кг",
+          "price": 750
+        },
+        {
+          "name": "Свинина (шея)",
+          "unit": "1 кг",
+          "price": 1000
+        }
       ]
     },
     {
       "name": "Пельмени",
       "items": [
-        { "name": "Свинина-говядина", "unit": "15 шт.", "price": 220 },
-        { "name": "Свинина-говядина (1,5 порции)", "unit": "22 шт.", "price": 330 }
+        {
+          "name": "Свинина-говядина",
+          "unit": "15 шт.",
+          "price": 220,
+          "image": "assets/img/menu/thumb/pelmeni.jpg",
+          "imageFull": "assets/img/menu/pelmeni.jpg"
+        },
+        {
+          "name": "Свинина-говядина (1,5 порции)",
+          "unit": "22 шт.",
+          "price": 330
+        }
       ]
     },
     {
       "name": "Выпечка",
       "items": [
-        { "name": "Самса с курицей", "unit": "шт.", "price": 150 },
-        { "name": "Самса с говядиной", "unit": "шт.", "price": 180 },
-        { "name": "Хачапури с домашним сыром", "unit": "шт.", "price": 300 },
-        { "name": "Пирожок с картошкой", "unit": "шт.", "price": 60 },
-        { "name": "Пирожок с рисом и яйцом", "unit": "шт.", "price": 60 },
-        { "name": "Беляш с мясом", "unit": "шт.", "price": 100 }
+        {
+          "name": "Самса с курицей",
+          "unit": "шт.",
+          "price": 150
+        },
+        {
+          "name": "Самса с говядиной",
+          "unit": "шт.",
+          "price": 180,
+          "image": "assets/img/menu/thumb/samsa.jpg",
+          "imageFull": "assets/img/menu/samsa.jpg"
+        },
+        {
+          "name": "Хачапури с домашним сыром",
+          "unit": "шт.",
+          "price": 300
+        },
+        {
+          "name": "Пирожок с картошкой",
+          "unit": "шт.",
+          "price": 60
+        },
+        {
+          "name": "Пирожок с рисом и яйцом",
+          "unit": "шт.",
+          "price": 60,
+          "image": "assets/img/menu/thumb/pirozhok-ris-yaico.jpg",
+          "imageFull": "assets/img/menu/pirozhok-ris-yaico.jpg"
+        },
+        {
+          "name": "Беляш с мясом",
+          "unit": "шт.",
+          "price": 100
+        }
       ]
     },
     {
       "name": "Сладости",
       "items": [
-        { "name": "Пончик", "unit": "шт.", "price": 85 },
-        { "name": "Чизкейк", "unit": "шт.", "price": 150 },
-        { "name": "Королевская ватрушка", "unit": "шт.", "price": 150 },
-        { "name": "Шарлотка яблочная", "unit": "шт.", "price": 150 }
+        {
+          "name": "Пончик",
+          "unit": "шт.",
+          "price": 85,
+          "image": "assets/img/menu/thumb/ponchik.jpg",
+          "imageFull": "assets/img/menu/ponchik.jpg"
+        },
+        {
+          "name": "Чизкейк",
+          "unit": "шт.",
+          "price": 150,
+          "image": "assets/img/menu/thumb/chizkeyk.jpg",
+          "imageFull": "assets/img/menu/chizkeyk.jpg"
+        },
+        {
+          "name": "Королевская ватрушка",
+          "unit": "шт.",
+          "price": 150,
+          "image": "assets/img/menu/thumb/vatrushka.jpg",
+          "imageFull": "assets/img/menu/vatrushka.jpg"
+        },
+        {
+          "name": "Шарлотка яблочная",
+          "unit": "шт.",
+          "price": 150,
+          "image": "assets/img/menu/thumb/sharlotka.jpg",
+          "imageFull": "assets/img/menu/sharlotka.jpg"
+        }
       ]
     },
     {
       "name": "Напитки",
       "items": [
-        { "name": "Чай", "unit": "200/1000 мл", "price": "30/150" },
-        { "name": "Чай ягодный", "unit": "400 мл", "price": 150 },
-        { "name": "Компот из абрикосов", "unit": "500 мл", "price": 150 },
-        { "name": "Лимонад домашний", "unit": "500 мл", "price": 150 },
-        { "name": "Напиток из шиповника", "unit": "500 мл", "price": 150 },
-        { "name": "Кофе чёрный, растворимый", "unit": "шт.", "price": 40 },
-        { "name": "Молочный коктейль", "unit": "шт.", "price": 180 },
-        { "name": "Лимонады с джус боллами", "unit": "шт.", "price": 220 }
+        {
+          "name": "Чай",
+          "unit": "200/1000 мл",
+          "price": "30/150"
+        },
+        {
+          "name": "Чай ягодный",
+          "unit": "400 мл",
+          "price": 150,
+          "image": "assets/img/menu/thumb/chay-yagodny.jpg",
+          "imageFull": "assets/img/menu/chay-yagodny.jpg"
+        },
+        {
+          "name": "Компот из абрикосов",
+          "unit": "500 мл",
+          "price": 150,
+          "image": "assets/img/menu/thumb/kompot.jpg",
+          "imageFull": "assets/img/menu/kompot.jpg"
+        },
+        {
+          "name": "Лимонад домашний",
+          "unit": "500 мл",
+          "price": 150,
+          "image": "assets/img/menu/thumb/limonad.jpg",
+          "imageFull": "assets/img/menu/limonad.jpg"
+        },
+        {
+          "name": "Напиток из шиповника",
+          "unit": "500 мл",
+          "price": 150
+        },
+        {
+          "name": "Кофе чёрный, растворимый",
+          "unit": "шт.",
+          "price": 40
+        },
+        {
+          "name": "Молочный коктейль",
+          "unit": "шт.",
+          "price": 180
+        },
+        {
+          "name": "Лимонады с джус боллами",
+          "unit": "шт.",
+          "price": 220
+        }
       ]
     },
     {
       "name": "Кофе зерновой",
       "items": [
-        { "name": "Эспрессо", "unit": "шт.", "price": 90 },
-        { "name": "Капучино", "unit": "шт.", "price": 120 },
-        { "name": "Латте", "unit": "шт.", "price": 140 }
+        {
+          "name": "Эспрессо",
+          "unit": "шт.",
+          "price": 90
+        },
+        {
+          "name": "Капучино",
+          "unit": "шт.",
+          "price": 120,
+          "image": "assets/img/menu/thumb/kofe.jpg",
+          "imageFull": "assets/img/menu/kofe.jpg"
+        },
+        {
+          "name": "Латте",
+          "unit": "шт.",
+          "price": 140
+        }
       ]
     }
   ]
