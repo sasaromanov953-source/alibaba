@@ -57,8 +57,7 @@ function renderMenu(menu){
       const thumb = item.image ? `<img class="menu-item-thumb" src="${item.image}" alt="" loading="lazy" width="44" height="44">` : '';
       row.innerHTML = `
         ${thumb}
-        <span class="menu-item-name">${item.name}</span>
-        <span class="menu-item-unit">${item.unit || ''}</span>
+        <span class="menu-item-info"><span class="menu-item-name">${item.name}</span> <span class="menu-item-unit">${item.unit || ''}</span></span>
         <span class="menu-item-leader"></span>
         <span class="menu-item-price">${formatPrice(item.price)}</span>
       `;
