@@ -354,8 +354,18 @@ section{ padding: var(--space-6) 0; position: relative; }
   display:inline-flex; align-items:center; gap:12px;
   margin-top: var(--space-3); font-family:'Playfair Display',serif; font-weight:700;
   font-size: clamp(1.5rem,4vw,2.8rem); color:#fff; position:relative;
-  white-space: nowrap;
+  white-space: nowrap; cursor: pointer;
+  padding: .5em 1em; border-radius: 999px;
+  background: rgba(255,255,255,.14);
+  border: 1px solid rgba(255,255,255,.35);
+  transition: transform var(--dur) var(--ease), background var(--dur) var(--ease), box-shadow var(--dur) var(--ease);
 }
+.cta-phone:hover, .cta-phone:focus-visible{
+  background: rgba(255,255,255,.24);
+  transform: translateY(-2px);
+  box-shadow: 0 14px 30px -12px rgba(0,0,0,.4);
+}
+.cta-phone:active{ transform: translateY(0); }
 .cta-phone .icon{ width: 28px; height:28px; flex-shrink:0; }
 .cta-hours{ margin-top: var(--space-2); color: rgba(255,255,255,.85); font-size:.92rem; position:relative; }
 
