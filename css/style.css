@@ -347,6 +347,7 @@ section{ padding: var(--space-6) 0; position: relative; }
   content:''; position:absolute; inset:0;
   background-image: radial-gradient(circle, rgba(255,255,255,.08) 1px, transparent 1px);
   background-size: 22px 22px;
+  pointer-events: none;
 }
 .cta-band h2{ font-family:'Playfair Display',serif; font-weight:700; font-size: clamp(1.8rem,3.6vw,2.6rem); color:#fff; position:relative; }
 .cta-band p{ color: rgba(255,255,255,.85); margin-top: var(--space-1); position:relative; }
